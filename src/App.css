@@ -1,0 +1,21 @@
+/* Define the vertical sliding animation */
+@keyframes vertical-slide {
+    0% { transform: translateY(100vh); }
+    100% { transform: translateY(-100vh); }
+  }
+  
+  .sliding-tiles {
+    animation: vertical-slide 10s linear infinite;
+    color: black;
+  }
+  
+  /* Tile height and width change dynamically over time */
+  @keyframes resize {
+    0%, 100% { height: 100px; width: 100px; }
+    50% { height: 150px; width: 150px; }
+  }
+  
+  .tile {
+    animation: resize 2s ease-in-out infinite;
+  }
+  
