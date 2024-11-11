@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.915fb872.css",
+    "main.js": "/static/js/main.696d0f74.js",
+    "static/js/453.af3c6d4a.chunk.js": "/static/js/453.af3c6d4a.chunk.js",
+    "static/media/sign.svg": "/static/media/sign.e300e721e8f9e1ca9b91a68d77ebe1aa.svg",
+    "static/media/Untitled design (1).png": "/static/media/Untitled design (1).ae78764d86d73fb86b8d.png",
+    "static/media/analytics-svgrepo-com (1).svg": "/static/media/analytics-svgrepo-com (1).6ed951e76d4d83d5c5ead0b602b38db7.svg",
+    "static/media/leadership-svgrepo-com.svg": "/static/media/leadership-svgrepo-com.fb78b62d0bb1d13435a4232a472360de.svg",
+    "static/media/solution-bulb-concept-svgrepo-com.svg": "/static/media/solution-bulb-concept-svgrepo-com.058446624b7aaca0d2dd6a6c1dc731c0.svg",
+    "static/media/aim-svgrepo-com.svg": "/static/media/aim-svgrepo-com.d687a2e409703e9989eb234db14e030d.svg",
+    "static/media/line-chart-svgrepo-com.svg": "/static/media/line-chart-svgrepo-com.1f78ab6a3ebbbd62eaa6b5674d262ab0.svg",
+    "index.html": "/index.html",
+    "main.915fb872.css.map": "/static/css/main.915fb872.css.map",
+    "main.696d0f74.js.map": "/static/js/main.696d0f74.js.map",
+    "453.af3c6d4a.chunk.js.map": "/static/js/453.af3c6d4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.915fb872.css",
+    "static/js/main.696d0f74.js"
+  ]
+}
