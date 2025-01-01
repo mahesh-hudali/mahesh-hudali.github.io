@@ -1,0 +1,17 @@
+.skills-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .skill {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  

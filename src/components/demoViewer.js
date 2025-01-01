@@ -4,7 +4,7 @@ function DemoViewer({ details }) {
   const { height, width, bg, delay } = details;
   return (
     <div
-      className="m-2 rounded-xl py-7 px-10"
+      className="m-2 rounded-xl text-center py-7 px-10 shadow-2xl cursor-pointer"
       style={{
         backgroundColor: bg.bg,
         // height: `${height}rem`,
@@ -31,11 +31,11 @@ function DemoViewer({ details }) {
         className="content text-xs py-2 font-Open "
         style={{ color: bg.secondary }}
       >
-        <ul className="list-inside">
+        {/* <ul className="list-inside">
           {details.highlights.map((el) => {
             return <li className="list-disc">{el}</li>;
           })}
-        </ul>
+        </ul> */}
       </p>
     </div>
   );

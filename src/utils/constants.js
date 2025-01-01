@@ -49,10 +49,10 @@ export const experiences = [
   {
     title: "Fullstack Developer",
     company: "Innoventes Technologies Pvt Ltd (Client: PhonePe)",
-    company: "Digital Fusion Trips Pvt Ltd",
+
     bg: { bg: "#000", primary: "#FFFFFF", secondary: "#CCCCCC" },
 
-    width: 38,
+    // width: 38,
     icon: chartGoal,
     highlights: [
       "Developed REST APIs in Node.js for seamless backend interactions.",
@@ -63,6 +63,7 @@ export const experiences = [
   {
     title: "UI/UX Developer",
     bg: { bg: "#fff", primary: "#000000", secondary: "#CCCCCC" },
+    company: "Digital Fusion Trips Pvt Ltd",
     // icon: "🎨", // Represents UI/UX design and creativity.
     icon: goal,
     highlights: [
