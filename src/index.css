@@ -14,9 +14,9 @@ body {
   /* background-color: #001435; */
   color: white;
 }
-section {
-  @apply px-20 pt-10;
-}
+/* section {
+  @apply px-10 pt-10;
+} */
 .section-1 {
   /* background-color: #1b925e; */
     background-color: #117449;

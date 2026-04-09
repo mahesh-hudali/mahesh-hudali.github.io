@@ -41,31 +41,84 @@ export default function App() {
 
   return (
     <div>
-      <section className="section-1 h-screen p-4 px-5 sm:p-20 sm:pt-10 relative overflow-hidden">
+      <section className="section-1 h-screen p-4 px-5 sm:p-10 sm:pl-20  sm:pt-5 relative overflow-hidden">
         
         {/* LEFT SIDE */}
-        <div className="relative">
-          <img src={nameImage} width={"10%"} alt="logo"  className="rounded-xl shadow-md" style={{border: "2px solid rgba(255,255,255,0.3)"}}/>
+  {/* LEFT SIDE */}
+<div className="h-full flex flex-col justify-between">
 
-          <motion.div
-            variants={container}
-            initial="hidden"
-            animate="show"
-            className="absolute left-0 font-bold lg:text-3xl hidden sm:block mt-10"
-          >
-            <motion.p variants={item} className="mb-6">
-              Building for Innovation.
-            </motion.p>
+  {/* 🔝 TOP: Image + Name */}
+  <div>
+    <img
+      src={nameImage}
+      width={"80px"}
+      alt="logo"
+      className="rounded-xl shadow-md"
+      style={{ border: "2px solid rgba(255,255,255,0.3)" }}
+    />
 
-            <motion.p variants={item} className="text-yellow mb-6">
-              Driven by Performance.
-            </motion.p>
+    <div className="mt-6">
+      <h1 className="text-3xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+        Mahesh Hudali
+      </h1>
+      <p className="text-sm opacity-70 mt-1">
+        Frontend Tech Lead • Building scalable frontend systems for <span style={{fontWeight: "bold" }} className="text-yellow text-xl"> 1M+ </span> users
+      </p>
+    </div>
+  </div>
 
-            <motion.p variants={item}>
-            Designed for Scalability.
-            </motion.p>
-          </motion.div>
-        </div>
+  {/* 🎯 MIDDLE: Animated Text */}
+  <motion.div
+    variants={container}
+    initial="hidden"
+    animate="show"
+    className="font-bold lg:text-3xl hidden sm:block "
+  >
+    <motion.p variants={item} className="mb-6">
+      Building for Innovation.
+    </motion.p>
+
+    <motion.p variants={item} className="text-yellow mb-6">
+      Driven by Performance.
+    </motion.p>
+
+    <motion.p variants={item}>
+      Designed for Scalability.
+    </motion.p>
+  </motion.div>
+
+  {/* 🔻 BOTTOM: CTA */}
+  <div className="flex flex-col gap-1">
+    <p className="text-sm opacity-60">Get in touch</p>
+
+    <a
+      href="mailto:rdhudali@gmail.com"
+      className="text-md underline hover:opacity-70 transition"
+    >
+      rdhudali@gmail.com
+    </a>
+
+    <div className="flex gap-3 mt-4">
+      <a
+        href="/Mahesh___Tech_Lead___8YoE _Feb.pdf"
+        download
+        className="px-4 py-2 rounded-lg text-sm font-medium border border-[#f59e0b] bg-[#f59e0b] text-white hover:bg-[#d97706] transition"
+      >
+        Download CV
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/mahesh-hudali/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-4 py-2 rounded-lg text-sm font-medium border border-[#012a18] text-[#012a18] hover:bg-[#f59e0b] hover:text-white transition"
+      >
+        LinkedIn
+      </a>
+    </div>
+  </div>
+
+</div>
 
         {/* RIGHT SIDE (Brick Layout) */}
         <div className="absolute right-0 bottom-0 w-[55%] p-6 flex justify-end">
@@ -77,44 +130,7 @@ export default function App() {
         </div>
 
         {/* 🔥 CTA (Bottom Left) */}
-        <div className="absolute bottom-5 left-5 sm:left-20 flex flex-col gap-2 mb-5">
-          
-          <p className="text-sm opacity-60">Get in touch</p>
-
-          {/* Email */}
-          <a
-            href="mailto:rdhudali@gmail.com"
-            className="text-md underline hover:opacity-70 transition " 
-          >
-            rdhudali@gmail.com
-          </a>
-
-          {/* Buttons */}
-          <div className="flex gap-3 mt-5">
-            
-            {/* Download CV */}
-            <a
-              href="/Mahesh___Tech_Lead___8YoE _Feb.pdf"
-              download
-              className="px-4 py-2 rounded-lg text-sm font-medium border border-[#f59e0b] text-[#012a18] bg-[#f59e0b] hover:text-[#012a18] hover:text-white hover:border-[#012a18] transition"
-            >
-              Download CV
-            </a>
-
-            {/* LinkedIn */}
-            <a
-              href="https://www.linkedin.com/in/mahesh-hudali/"
-              target="_blank"
-              rel="noopener noreferrer"
-                            // style={{border:"1px solid #f59e0b"}}
-
-              className="px-4 py-2 rounded-lg text-sm font-medium border border-[#012a18] text-[#012a18] hover:bg-[#f59e0b] hover:text-[#012a18] hover:text-white hover:border-[#012a18] transition"
-            >
-              LinkedIn
-            </a>
-
-          </div>
-        </div>
+  
 
       </section>
     </div>
