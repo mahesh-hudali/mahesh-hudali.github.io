@@ -1,75 +1,111 @@
-import leader from "../assets/leadership-svgrepo-com.svg";
-import problemSolving from "../assets/solution-bulb-concept-svgrepo-com.svg";
-import upChart from "../assets/line-chart-svgrepo-com.svg";
-import goal from "../assets/aim-svgrepo-com.svg";
-import chartGoal from "../assets/analytics-svgrepo-com (1).svg";
-
 export const experiences = [
+  {
+    title: "Tech Lead",
+    company: "mPokket",
+    width: 37, // ⭐ Hero (most important)
+    bg: {
+      bg: "#d8e8e0",
+      primary: "#012a18",
+      secondary: "#15221c",
+      accent: "#117449",
+    },
+    highlights: [
+ "Scaled team from 4 → 7 engineers + 2 QA, improving delivery velocity",
+  "Led multiple business-critical projects impacting core financial flows",
+  "Drove architecture decisions across multiple product journeys",
+  "Owned production stability for high-impact user-facing systems",
+    ],
+  },
+
   {
     title: "Principal Software Engineer",
     company: "mPokket",
-    bg: { bg: "#000", primary: "#FFFFFF", secondary: "#CCCCCC" },
-    // icon: "👨‍🏫", // Represents leadership and technical mentoring.
-    icon: leader,
+    width: 32,
+    bg: {
+      bg: "#d8e8e0",
+      primary: "#012a18",
+      secondary: "#15221c",
+      accent: "#117449",
+    },
     highlights: [
-      "Pioneered Micro Frontend architecture with Single SPA for modular UI.",
-      "Published TypeScript-supported UI components on NPM for organization-wide use.",
-      "Defined coding standards and streamlined Merge Request processes.",
-      "Led UI team in cross-functional collaboration and workflow improvements.",
+    "Scaled web platform to full feature parity with mobile apps",
+  "Architected Micro Frontend system (Single-SPA)",
+  "Drove key technical decisions shaping frontend architecture",
+  "Defined scalable patterns and best practices across teams",
+  "Delivered critical financial journeys (Onboarding, Repayments)",
+  "Introduced PWA and React Native App for iOS, unlocking new user segment",
     ],
   },
+
   {
     title: "Senior Frontend Developer",
-    company: "Aerchain (Agillos E-Commerce Pvt Ltd)",
-    bg: "white",
-    // icon: "📚", // Represents building and managing reusable libraries.
-    icon: problemSolving,
-    bg: { bg: "#fff", primary: "#000000", secondary: "#CCCCCC" },
+    company: "Aerchain",
+    width: 28,
+    bg: {
+      bg: "#d8e8e0",
+      primary: "#012a18",
+      secondary: "#15221c",
+      accent: "#117449",
+    },
     highlights: [
-      "Developed a scalable, reusable component library for product consistency.",
-      "Improved code quality through rigorous reviews and best practices.",
-      "Spearheaded complex UI solutions, mentoring junior developers.",
-      "Actively involved in recruitment, conducting technical interviews.",
+      "Built component library covering ~70% UI use cases",
+      "Improved frontend architecture for scalable SaaS platform",
+      "Solved complex workflow problems with product/design teams",
+      "Raised engineering quality via reviews and mentoring",
     ],
   },
+
   {
     title: "Frontend Developer",
-    company: "Infilect Technologies Pvt Ltd",
-
-    bg: { bg: "#000", primary: "#FFFFFF", secondary: "#CCCCCC" },
-    // icon: "📊", // Represents data-focused development and performance.
-    icon: upChart,
+    company: "Infilect",
+    width: 26,
+    bg: {
+      bg: "#d8e8e0",
+      primary: "#012a18",
+      secondary: "#15221c",
+      accent: "#117449",
+    },
     highlights: [
-      "Built high-performance React data-visualizer for ML projects.",
-      "Boosted product performance by 70% through optimization.",
-      "Implemented analytics across platforms for better insights.",
-      "Integrated ELK stack for real-time monitoring and debugging.",
+      "Built React + SVG visualization library for ML dashboards",
+      "Improved performance by ~70% via optimization",
+      "Owned analytics instrumentation across platforms",
+      "Developed reusable authentication modules",
     ],
   },
+
   {
     title: "Fullstack Developer",
-    company: "Innoventes Technologies Pvt Ltd (Client: PhonePe)",
-
-    bg: { bg: "#000", primary: "#FFFFFF", secondary: "#CCCCCC" },
-
-    // width: 38,
-    icon: chartGoal,
+    company: "Innoventes (PhonePe)",
+    width: 26,
+    bg: {
+      bg: "#d8e8e0",
+      primary: "#012a18",
+      secondary: "#15221c",
+      accent: "#117449",
+    },
     highlights: [
-      "Developed REST APIs in Node.js for seamless backend interactions.",
-      "Built reusable UI components for a consistent user experience.",
-      "Automated CI/CD with Jenkins and Docker, improving deployment.",
+      "Built scalable React + Node.js features from ambiguous requirements",
+      "Designed BFF/proxy layers for multi-service integration",
+      "Owned CI/CD pipelines and ensured production stability",
+      "Handled critical production issues during releases",
     ],
   },
+
   {
     title: "UI/UX Developer",
-    bg: { bg: "#fff", primary: "#000000", secondary: "#CCCCCC" },
-    company: "Digital Fusion Trips Pvt Ltd",
-    // icon: "🎨", // Represents UI/UX design and creativity.
-    icon: goal,
+    company: "Digital Fusion Trips",
+    width: 24,
+    bg: {
+      bg: "#d8e8e0",
+      primary: "#012a18",
+      secondary: "#15221c",
+      accent: "#117449",
+    },
     highlights: [
-      "Conducted user research to create detailed personas.",
-      "Designed engaging UI in React.js, focusing on usability.",
-      "Enhanced visuals with tools like Photoshop and Illustrator.",
+      "Designed user-centric UI using research-driven approach",
+      "Led persona creation and workflow design",
+      "Built responsive production-ready interfaces",
+      "Owned features end-to-end from design to delivery",
     ],
   },
 ];
